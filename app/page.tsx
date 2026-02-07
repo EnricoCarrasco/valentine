@@ -37,11 +37,10 @@ export default function Home() {
   const openLocker = useCallback(() => {
     trackClickButton();
 
-    // TODO: restore locker after video proof
-    window.location.href = "/message";
-    // if (typeof window.call_locker === "function") {
-    //   window.call_locker();
-    // }
+    // Call the OGAds locker popup
+    if (typeof window.call_locker === "function") {
+      window.call_locker();
+    }
   }, []);
 
   return (
