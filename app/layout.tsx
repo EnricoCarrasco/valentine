@@ -14,6 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://wanttobemyvalentine.xyz"),
   title: "LoveRequest - Make This Valentine's Day Unforgettable",
   description:
     "Send the sweetest, most heartfelt Valentine's request with LoveRequest. Create personalized love messages that touch the heart.",
@@ -22,10 +23,10 @@ export const metadata: Metadata = {
     description:
       "Love isn't about the price, it's about the feeling. Make this Valentine's Day unforgettable.",
     type: "website",
+    siteName: "LoveRequest",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@LoveRequest",
   },
 };
 
