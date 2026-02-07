@@ -127,10 +127,13 @@ export default function Home() {
               </video>
             </div>
 
-            {/* "Make it personal" badge */}
-            <div className="absolute -right-2 bottom-16 z-20 rounded-full bg-white px-4 py-2 text-xs font-semibold text-primary shadow-lg sm:-right-8 sm:text-sm">
+          </div>
+
+          {/* "Make it personal" badge */}
+          <div className="mt-6 animate-fade-in-up delay-600 opacity-0">
+            <span className="inline-block rounded-full bg-white px-5 py-2 text-sm font-semibold text-primary shadow-lg sm:text-base">
               Make it personal
-            </div>
+            </span>
           </div>
         </div>
       </main>
